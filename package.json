@@ -9,6 +9,7 @@
     "@vechain.energy/hardhat-thor": "^0.1.4",
     "hardhat": "^2.9.3",
     "hardhat-jest-plugin": "^0.0.6",
+    "nodemon": "^2.0.16",
     "standard": "^17.0.0"
   },
   "standard": {
@@ -17,6 +18,10 @@
     ]
   },
   "scripts": {
-    "test": "hardhat test:jest"
+    "test": "hardhat test:jest",
+    "test:watch": "nodemon -e sol --exec 'hardhat test:jest --watch'"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
   }
 }
