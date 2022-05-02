@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import './NFT.sol';
+import "./NFT.sol";
 
 contract ExampleLogic {
     address[] allowedContractRecipient;
@@ -17,10 +17,10 @@ contract ExampleLogic {
         address _to,
         bytes calldata _data
     ) public view returns (bool) {
-        if ( nft.balanceOf(_origin) > 0 ) {
+        if (nft.balanceOf(_origin) > 0) {
             return true;
         }
-        
+
         for (
             uint256 index = 0;
             index < allowedContractRecipient.length;

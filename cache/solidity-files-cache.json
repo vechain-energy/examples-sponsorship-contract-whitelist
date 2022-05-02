@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/favo/workspace/vechain.energy/examples/sponsor-whitelist/contracts/ExampleLogic.sol": {
-      "lastModificationDate": 1651485204812,
-      "contentHash": "679a851413198e9162073f00870f8d47",
+      "lastModificationDate": 1651485283292,
+      "contentHash": "595c8de3f35b862764169c86adb9687b",
       "sourceName": "contracts/ExampleLogic.sol",
       "solcConfig": {
         "version": "0.8.4",
